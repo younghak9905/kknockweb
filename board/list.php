@@ -11,7 +11,7 @@ $order = "desc";
 if (isset($_GET['order']) && $_GET['order'] === "asc") {
     $order = "asc"; 
 }
-$boards = db_select("select * from board order by seq $order");
+$boards = db_select("select * from board order by date $order");
 ?>
 
 <!DOCTYPE html>

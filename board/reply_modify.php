@@ -28,11 +28,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             'r_seq' => $r_seq
             )
         );
-        echo "<script>alert('댓글이 수정되었습니다.');</script>";
+        echo "<script type='text/javascript'>alert('댓글이 수정되었습니다.');</script>";
     }
     else
     {
-        echo "<script>alert('수정에 실패했습니다.');</script>";
+        echo "<script type='text/javascript'>alert('댓글 수정에 실패했습니다.');</script>";
     }
     echo "<meta http-equiv='refresh' content='0; url=read.php?seq=$con_num' />";
     exit();
