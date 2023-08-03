@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     else
     {
-        echo "<script type='text/javascript'>alert('댓글 수정에 실패했습니다.');</script>";
+        echo "<script type='text/javascript'>alert('댓글 수정 권한이 없습니다.');</script>";
     }
     echo "<meta http-equiv='refresh' content='0; url=read.php?seq=$con_num' />";
     exit();
