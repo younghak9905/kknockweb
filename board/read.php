@@ -5,7 +5,7 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 if (isset($_SESSION['id']) === false){
-    header("Location: ../main/index.php");
+    header("Location: ../main/_main.php");
     exit();
 }
 ?>

@@ -4,7 +4,7 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 require_once("../main/db.php");
 if (isset($_SESSION['id']) === false){
-    header("Location: ../main/index.php");
+    header("Location: ../main/_main.php");
     exit();
 }
 

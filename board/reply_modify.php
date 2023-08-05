@@ -2,7 +2,7 @@
 require_once("../main/db.php");
 session_start();
 if (isset($_SESSION['id']) === false){
-    header("Location: ../main/index.php");
+    header("Location: ../main/_main.php");
     exit();
 }
 

@@ -37,5 +37,5 @@ if ($is_match_password === false){
 $_SESSION['id'] = $member_data[0]['id'];
 
 // 목록으로 이동
-header('Location: ../main/index.php');
+header('Location: ../main/_main.php');
 ?>
